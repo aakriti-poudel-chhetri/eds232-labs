@@ -1,0 +1,19 @@
+# Ignore a specific data folder and all its contents
+data/
+
+# Ignore all files with specific data extensions
+*.csv
+*.json
+*.sqlite
+*.db
+*.log
+
+# Ignore data in subdirectories (recursively)
+**/temp_data/
+
+# Exception: Ignore all .csv files EXCEPT a specific one
+# !important_data.csv
+
+# Ignore .DS_Store
+.DS_Store
+**/.DS_Store
